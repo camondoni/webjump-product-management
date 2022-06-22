@@ -1,0 +1,24 @@
+{
+  "name": "camondoni/php-product-management",
+  "authors": [
+    {
+      "name": "Caio André Mondoni",
+      "email": "camondoni@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9.5",
+    "illuminate/database": "^9.18",
+    "vlucas/phpdotenv": "^5.4",
+    "rakit/validation": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app",
+      "Camondoni\\Framework\\": "routes",
+      "Modules\\": "modules"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
